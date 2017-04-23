@@ -8,11 +8,11 @@ Boiler Share is a cutting-edge, collaborative website for student to find help i
 
 ## Features
 
-- [ ] Authentication
+- [X] Authentication
 	- [X] Login
 	- [X] Register
-- [ ] Classrooms
-	- [ ] Q/A Forum
+- [X] Classrooms
+	- [X] Q/A Forum
 	- [ ] File Resource Sharing
 
 ## Local Environment Setup - Mac (MAMP)
