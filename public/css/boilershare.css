@@ -1,0 +1,92 @@
+/*
+	@ Harris Christiansen (Harris@HarrisChristiansen.com)
+	File Created: April 23, 2017
+	Project: boilershare.purduecs.com
+*/
+
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic|Open+Sans+Condensed:700");
+
+/* ------------------------ HTML/Body ------------------------- */
+
+body {
+  padding-top: 60px;
+}
+
+/* ------------------------ Logo ------------------------- */
+
+.logo {
+	display: inline-block;
+	background: url("/images/logo_sm.png") no-repeat center center;
+	background-size: contain;
+}
+
+/* ------------------------ Navbar ------------------------- */
+
+#navbar-logo {
+	width: 80px;
+	background: url("/images/logo_sm.png") no-repeat center center;
+	background-size: contain;
+	margin: 0px 12px;
+}
+
+/* ------------------------ Home ------------------------- */
+
+#home-logo {
+	display: block;
+	height: 3em;
+	margin-bottom: 10px;
+}
+
+/* ------------------------ Tables ------------------------- */
+
+.table-clickable tbody tr:hover {
+	cursor: pointer;
+}
+
+/* ------------------------ Panels ------------------------- */
+
+.panel-green {
+	border-color: #5cb85c;
+}
+.panel-green > .panel-heading {
+	border-color: #5cb85c;
+	color: white;
+	background-color: #5cb85c;
+}
+.panel-green > a {
+	color: #5cb85c;
+}
+.panel-green > a:hover {
+	color: #3d8b3d;
+}
+.panel-red {
+	border-color: #d9534f;
+}
+.panel-red > .panel-heading {
+	border-color: #d9534f;
+	color: white;
+	background-color: #d9534f;
+}
+.panel-red > a {
+	color: #d9534f;
+}
+.panel-red > a:hover {
+	color: #b52b27;
+}
+.panel-yellow {
+	border-color: #f0ad4e;
+}
+.panel-yellow > .panel-heading {
+	border-color: #f0ad4e;
+	color: white;
+	background-color: #f0ad4e;
+}
+.panel-yellow > a {
+	color: #f0ad4e;
+}
+.panel-yellow > a:hover {
+	color: #df8a13;
+}
+
+/* ------------------------ End ------------------------- */
