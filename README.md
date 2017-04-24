@@ -13,7 +13,7 @@ Boiler Share is a cutting-edge, collaborative website for student to find help i
 	- [X] Register
 - [X] Classrooms
 	- [X] Q/A Forum
-	- [ ] File Resource Sharing
+	- [X] File Resource Sharing
 
 ## Local Environment Setup - Mac (MAMP)
 

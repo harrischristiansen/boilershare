@@ -35,6 +35,13 @@ Route::group(['prefix' => 'class'], function () {
 			});
 		});
 	});
+	
+	//////////////////////////// Resources Routes ////////////////////////////
+	Route::group(['prefix' => '{classroom}/resources'], function () {
+		Route::get('', 'ResourceController@getList')->name('resources');
+		Route::get('add', 'ResourceController@getCreate')->name('resource-create');
+		Route::post('add', 'ResourceController@postCreate')->name('resource-create-post');
+	});
 });
 
 
