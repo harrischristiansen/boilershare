@@ -16,6 +16,7 @@
 	<a href="{{ route("editClass", $classroom) }}" type="button" class="btn btn-primary">Edit Classroom</a>
 	@endcan
 	<a href="{{ route("QA", $classroom) }}" type="button" class="btn btn-primary">Q&A</a>
+	<a href="{{ route("resources", $classroom) }}" type="button" class="btn btn-primary">Resources</a>
 </div>
 
 @stop

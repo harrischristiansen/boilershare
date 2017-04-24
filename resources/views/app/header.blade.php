@@ -24,6 +24,7 @@
 					<ul class="dropdown-menu dropdown-user">
 						<li><a href="{{ route('class', $classroom) }}">Classroom</a></li>
 						<li><a href="{{ route('QA', $classroom) }}">Q&A</a></li>
+						<li><a href="{{ route('resources', $classroom) }}">Resources</a></li>
 					</ul>
 				</li>
 				@endif
