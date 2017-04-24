@@ -81,13 +81,13 @@ class QAController extends Controller {
 	
 	/////////////////////////// Delete Question/Answer ///////////////////////////
 	
-	public function getDeleteThread(EditQuestionRequest $request, Classroom $classroom, Question $question) {
+	public function getDeleteThread(ManageClassRequest $request, Classroom $classroom, Question $question) {
 		$question->delete();
 		
 		return redirect()->route('QA', [$classroom])->with('alert-success', "Success! Deleted thread: ".$question->subject);
 	}
 	
-	public function getDeleteAnswer(EditAnswerRequest $request, Classroom $classroom, Question $question, Answer $answer) {
+	public function getDeleteAnswer(ManageClassRequest $request, Classroom $classroom, Question $question, Answer $answer) {
 		$answer->delete();
 		
 		return redirect()->route('QA-thread', [$classroom, $question])->with('alert-success', "Success! Deleted answer by ".$answer->user->name);
